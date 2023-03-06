@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Trirong");
+
+:root{
+  --primary:rgb(255, 221, 68);
+  --error:red;
+}
+
+body{
+  background-color:white;
+  margin:0;
+  font-family:"Trirong"
+}
+header{
+  color:lightgray;
+}
+
+header .container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header a{
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+.pages{
+  max-width: 1200px;
+  margin:0 auto;
+  
+}
+.Home{
+  display:grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 100px;
+  
+}
+.PropertyDetails{
+  display: flex;
+  background-color:whitesmoke;
+  border-radius: 50px;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0,0.05);
+}
+.PropertyDetails h4{
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  align-items: center;
+}
+.PropertyDetails p{
+  margin: 0 0 10px 0;
+  font-size: 20px;
+  align-items: auto;
+}
+label{
+  font-size: 20px;
+}
+label, input {display: block }
+input{
+  padding: 10px;
+  margin: top 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.PP{
+
+  padding: 20px;
+
+}
+form button{
+  background:black;
+  border: 0;
+  color: white;
+  width: 100px;
+  padding: 10px;
+  font-family: Trirong;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn{
+  background:black;
+  border: 0;
+  margin-left: 5px;
+  color: white;
+  size: 10px;
+  padding: 10px;
+  position: relative;
+  font-family: Trirong;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.error{
+  padding :10px;
+  color : #ff0000;
+  border-radius:4px;
+  margin:10px 10px;
+}
